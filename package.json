@@ -1,0 +1,68 @@
+{
+  "name": "sketchbook",
+  "version": "0.0.1",
+  "author": "Jhey <jh3y@users.noreply.github.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jh3y/sketchbook.git"
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/jh3y/sketchbook/issues"
+  },
+  "description": "a repository for my CodePen source",
+  "homepage": "https://github.com/jh3y/sketchbook#readme",
+  "keywords": [
+    "creative",
+    "coding",
+    "fun",
+    "experimental",
+    "codepen",
+    "javascript",
+    "html",
+    "css",
+    "pug",
+    "stylus",
+    "greensock",
+    "animation",
+    "whimsy"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "mkcert -install && mkcert localhost",
+    "dev": "rm -rf dist && vite --config ./vite.config.js",
+    "create": "plop"
+  },
+  "browserslist": "> 0.5%, chrome 95, last 2 versions, not dead",
+  "devDependencies": {
+    "98.css": "0.1.11",
+    "@faker-js/faker": "^7.6.0",
+    "color": "^4.2.3",
+    "plop": "^3.1.1",
+    "prettier": "^2.7.1",
+    "prism-themes": "^1.9.0",
+    "prismjs": "^1.28.0",
+    "process": "^0.11.10",
+    "scroll-out": "^2.2.12",
+    "splitting": "^1.0.6",
+    "sweetalert": "^2.1.2",
+    "use-caret-position": "^0.0.2"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.filter.js": "^3.0.8",
+    "@svgdotjs/svg.js": "^3.1.2",
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "5.2.3",
+    "canvas-confetti": "^1.5.1",
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.11.1",
+    "normalize.css": "^8.0.1",
+    "open-props": "^1.4.1",
+    "postcss-preset-env": "^7.8.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tweakpane": "^3.1.0",
+    "vite": "^3.1.3"
+  }
+}
