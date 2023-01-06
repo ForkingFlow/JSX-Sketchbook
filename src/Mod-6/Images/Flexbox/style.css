@@ -1,0 +1,38 @@
+@import "normalize.css";
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+.reviews {
+  text-align: center;
+  min-width: 300px;
+}
+
+.average-rating {
+  font-size: 1.25rem;
+  margin-top: 32px;
+  color: gold;
+  font-style: italic;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.book-img {
+  /*
+    We'll learn more about this fancy
+    property in a future module!
+  */
+  filter:
+    drop-shadow(
+      -8px
+      32px
+      10px
+      hsl(260deg 50% 4% / 0.5)
+    );
+}
