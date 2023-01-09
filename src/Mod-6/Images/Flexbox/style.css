@@ -4,12 +4,16 @@
 *:after,
 *:before {
 	box-sizing: border-box;
+	font-family: Wotfard;
 }
 
-.reviews {
-  text-align: center;
-  min-width: 300px;
+body {
+  background-color: hsl(220deg, 0%, 10%);
+  margin: 0;
+  padding: 0;
+  color: white;
 }
+
 
 .average-rating {
   font-size: 1.25rem;
@@ -17,13 +21,13 @@
   color: gold;
   font-style: italic;
 }
-body {
-  margin: 0;
-  padding: 0;
-  color: white;
+
+.author::before{
+  content:"—";
 }
 
 .book-img {
+  width: 100%;
   /*
     We'll learn more about this fancy
     property in a future module!
