@@ -7,23 +7,12 @@ plugins: [
       react(),
     ],
 
-  esbuild: {
-    loader: "jsx",
-  },
-  optimizeDeps: {
-    esbuildOptions: {
-      loader: {
-        ".js": "jsx",
-        ".ts": "tsx",
-      },
-    },
-  },
   server: {
     port: 1987,
     host: true,
-    https: {
-      key: fs.readFileSync('localhost-key.pem'),
-      cert: fs.readFileSync('localhost.pem')
-    }
+    // https: {
+    //   key: fs.readFileSync('localhost-key.pem'),
+    //   cert: fs.readFileSync('localhost.pem')
+    // }
   }
 })
